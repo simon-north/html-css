@@ -113,13 +113,13 @@ p {
 
 #navbar ul li a:hover {
   background: #444;
-  color: #f7c08a;
+  color: red;
 }
 
 #navbar ul li a:hover, 
 #navbar ul li a.current {
   background: #444;
-  color: #f7c08a;
+  color: red;
 }
 
 /* Showcase */
@@ -181,6 +181,25 @@ p {
 
 .box i {
   margin-bottom: 10px;
+}
+
+/* About Info */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* About Info */
+#about-info .info-right img {
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+
+#about-info .info-left {
+  width: 50%;
+  float: left;
 }
 
 /* Footer */
