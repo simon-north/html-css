@@ -66,6 +66,11 @@ body,html {
   clear: both;
 }
 
+.l-heading {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
 /* Padding */
 .py-1 {
   padding: 10px 0;
@@ -102,7 +107,7 @@ p {
   color: white;
 }
 
-#navbar h1 {
+#navbar .logo {
   float: left;
   padding: 20px;
 }
@@ -159,7 +164,7 @@ p {
 
 /* Home Info */
 #home-info {
-  height: 400px;
+  height: 450px;
 }
 
 #home-info .info-img {
@@ -206,11 +211,41 @@ p {
   width: 70%;
   margin: auto;
   display: block;
+  border-radius: 50%;
 }
 
 #about-info .info-left {
   width: 50%;
   float: left;
+  padding-top: 10px;
+}
+
+/* Testimonials */
+#testimonials {
+  height: 100%;
+  background: url('../img/meals-Smithstown-Diner.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#testimonials h2 {
+  color: #111;
+  text-align: center;
+  padding: 40px;
+
 }
 
 /* Contact Form*/
